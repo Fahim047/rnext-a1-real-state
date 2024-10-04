@@ -1,10 +1,32 @@
+import AboutSection from './components/AboutSection';
+import AvailableSection from './components/AvailableSection';
+import Contact from './components/Contact';
+import CTASection from './components/CTASection';
+import FaqSection from './components/FaqSection';
+import FeatureSection from './components/FeatureSection';
+import Footer from './components/Footer';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import TeamSection from './components/TeamSection';
+
 function App() {
 	return (
-		<div className="flex justify-center items-center w-full h-screen bg-gray-900">
-			<h1 className="text-3xl font-bold text-center text-blue-400">
-				Vite + React + Tailwind CSS
-			</h1>
-		</div>
+		<>
+			<header>
+				<Navbar />
+				<Hero />
+			</header>
+			<main>
+				<FeatureSection />
+				<AvailableSection />
+				<AboutSection />
+				<CTASection />
+				<FaqSection />
+				<TeamSection />
+				<Contact />
+			</main>
+			<Footer />
+		</>
 	);
 }
 
