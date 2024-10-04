@@ -81,3 +81,67 @@ export const properties = [
 	// 		'https://images.unsplash.com/photo-1600585153887-56d84c30a1bf?auto=format&fit=crop&w=500&q=60',
 	// },
 ];
+
+export const faqData = [
+	{
+		id: 1,
+		question: 'What is the process for renting a property?',
+		answer:
+			"The process begins by browsing available properties. Once you find a property you're interested in, you can contact the agent or owner to schedule a viewing. After that, you can submit an application, undergo a background check, and sign the lease if approved.",
+	},
+	{
+		id: 2,
+		question: 'Are pets allowed in the rental properties?',
+		answer:
+			'Pet policies vary depending on the property and the landlord. Some properties allow pets with an additional deposit or monthly fee, while others may have restrictions on the type or size of pets.',
+	},
+	{
+		id: 3,
+		question: 'What is included in the rent?',
+		answer:
+			'Typically, rent covers the cost of occupying the property. Utilities such as electricity, water, and internet may or may not be included, depending on the property. It’s important to check the lease agreement for details.',
+	},
+	{
+		id: 4,
+		question: 'How long is the lease term?',
+		answer:
+			'Most lease agreements are for 12 months, but some properties offer shorter-term leases, such as 6-month or month-to-month options. It’s best to check with the property owner or manager for specific lease terms.',
+	},
+	{
+		id: 5,
+		question: 'How do I pay my rent?',
+		answer:
+			'Rent payment methods vary by property. Common options include online payments via a property management portal, direct bank transfers, or paying by check. Be sure to clarify the preferred method with your landlord or property manager.',
+	},
+	{
+		id: 6,
+		question: 'What happens if I need to break my lease early?',
+		answer:
+			'Breaking a lease early usually involves penalties, such as forfeiting your security deposit or paying a fee equivalent to a few months’ rent. However, specific terms will be outlined in your lease agreement.',
+	},
+	{
+		id: 7,
+		question: 'Is renter’s insurance required?',
+		answer:
+			'Some landlords require renter’s insurance, while others do not. Renter’s insurance protects your personal belongings in case of theft, fire, or other damage, and is generally a good idea to have even if not required.',
+	},
+	{
+		id: 8,
+		question: 'How do I schedule a property tour?',
+		answer:
+			'You can schedule a property tour by contacting the property manager or agent directly through the listing page. Many agents offer virtual tours as well, especially for out-of-town clients.',
+	},
+	{
+		id: 9,
+		question:
+			'Can I make changes to the property, such as painting or adding decorations?',
+		answer:
+			'Minor changes like hanging pictures are usually allowed, but any significant modifications like painting or installing fixtures often require prior approval from the landlord.',
+	},
+	{
+		id: 10,
+		question: 'What do I do if there are maintenance issues in the property?',
+		answer:
+			'If maintenance issues arise, you should notify the property manager or landlord as soon as possible. They are typically responsible for repairs, but check your lease to see what responsibilities you may have.',
+	},
+];
