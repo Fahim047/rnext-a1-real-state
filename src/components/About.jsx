@@ -1,6 +1,4 @@
-import React from 'react';
-
-const AboutSection = () => {
+const About = () => {
 	return (
 		<section
 			id="about"
@@ -188,4 +186,4 @@ const AboutSection = () => {
 	);
 };
 
-export default AboutSection;
+export default About;

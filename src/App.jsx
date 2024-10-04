@@ -1,5 +1,3 @@
-import AboutSection from './components/AboutSection';
-import AvailableSection from './components/AvailableSection';
 import Contact from './components/Contact';
 import CTASection from './components/CTASection';
 import FaqSection from './components/FaqSection';
@@ -8,6 +6,8 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import TeamSection from './components/TeamSection';
+import PropertySection from './components/PropertySection';
+import About from './components/About';
 
 function App() {
 	return (
@@ -18,8 +18,8 @@ function App() {
 			</header>
 			<main>
 				<FeatureSection />
-				<AvailableSection />
-				<AboutSection />
+				<PropertySection />
+				<About />
 				<CTASection />
 				<FaqSection />
 				<TeamSection />
