@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ContactForm = () => {
 	return (
 		<div className="w-full px-4 lg:w-5/12 xl:w-4/12">
