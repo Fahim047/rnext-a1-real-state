@@ -1,4 +1,4 @@
-import SocialLinks from './SocialLinks';
+import TeamSocials from './TeamSocials';
 import TeamHover from './ui/teamhover';
 
 const TeamCard = ({ member }) => {
@@ -24,7 +24,7 @@ const TeamCard = ({ member }) => {
 					<p className="mb-5 text-sm text-body-color dark:text-dark-6">
 						{role}
 					</p>
-					<SocialLinks />
+					<TeamSocials />
 				</div>
 			</div>
 		</div>

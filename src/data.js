@@ -1,3 +1,7 @@
+import Facebook from './components/ui/facebook';
+import Instagram from './components/ui/instagram';
+import Twitter from './components/ui/twitter';
+
 export const properties = [
 	{
 		id: 1,
@@ -119,31 +123,6 @@ export const faqData = [
 		answer:
 			'Breaking a lease early usually involves penalties, such as forfeiting your security deposit or paying a fee equivalent to a few months’ rent. However, specific terms will be outlined in your lease agreement.',
 	},
-	{
-		id: 7,
-		question: 'Is renter’s insurance required?',
-		answer:
-			'Some landlords require renter’s insurance, while others do not. Renter’s insurance protects your personal belongings in case of theft, fire, or other damage, and is generally a good idea to have even if not required.',
-	},
-	{
-		id: 8,
-		question: 'How do I schedule a property tour?',
-		answer:
-			'You can schedule a property tour by contacting the property manager or agent directly through the listing page. Many agents offer virtual tours as well, especially for out-of-town clients.',
-	},
-	{
-		id: 9,
-		question:
-			'Can I make changes to the property, such as painting or adding decorations?',
-		answer:
-			'Minor changes like hanging pictures are usually allowed, but any significant modifications like painting or installing fixtures often require prior approval from the landlord.',
-	},
-	{
-		id: 10,
-		question: 'What do I do if there are maintenance issues in the property?',
-		answer:
-			'If maintenance issues arise, you should notify the property manager or landlord as soon as possible. They are typically responsible for repairs, but check your lease to see what responsibilities you may have.',
-	},
 ];
 
 export const teamData = [
@@ -175,4 +154,25 @@ export const teamData = [
 		imageUrl:
 			'https://cdn.tailgrids.com/1.0/assets/images/team/image-07/image-04.png',
 	},
+];
+
+export const blogData = [
+	{
+		id: 1,
+		title: 'I think it is really important to design with planing',
+		imageUrl: '/assets/images/blog/blog-footer-01.jpg',
+	},
+	{
+		id: 2,
+		title: 'Recognizing the need is the primary step to success',
+		imageUrl: '/assets/images/blog/blog-footer-02.jpg',
+	},
+];
+
+export const aboutUsLinks = ['Home', 'Features', 'About'];
+export const featuresLinks = [
+	'How it works',
+	'Privacy Policy',
+	'Term of Service',
+	'Refund policy',
 ];

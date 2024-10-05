@@ -2,7 +2,7 @@ import Facebook from './ui/facebook';
 import Instagram from './ui/instagram';
 import Twitter from './ui/twitter';
 
-const SocialLinks = () => {
+const TeamSocials = () => {
 	return (
 		<div className="flex items-center justify-center gap-5">
 			<a href="javascript:void(0)" className="text-dark-6 hover:text-primary">
@@ -18,4 +18,4 @@ const SocialLinks = () => {
 	);
 };
 
-export default SocialLinks;
+export default TeamSocials;
