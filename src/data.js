@@ -145,3 +145,34 @@ export const faqData = [
 			'If maintenance issues arise, you should notify the property manager or landlord as soon as possible. They are typically responsible for repairs, but check your lease to see what responsibilities you may have.',
 	},
 ];
+
+export const teamData = [
+	{
+		id: 1,
+		name: 'Melissa Tatcher',
+		role: 'Marketing Expert',
+		imageUrl:
+			'https://cdn.tailgrids.com/1.0/assets/images/team/image-07/image-01.png',
+	},
+	{
+		id: 2,
+		name: 'Stuard Ferrel',
+		role: 'Digital Marketer',
+		imageUrl:
+			'https://cdn.tailgrids.com/1.0/assets/images/team/image-07/image-02.png',
+	},
+	{
+		id: 3,
+		name: 'Eva Hudson',
+		role: 'Creative Designer',
+		imageUrl:
+			'https://cdn.tailgrids.com/1.0/assets/images/team/image-07/image-03.png',
+	},
+	{
+		id: 4,
+		name: 'Lori Smith',
+		role: 'Lead Designer',
+		imageUrl:
+			'https://cdn.tailgrids.com/1.0/assets/images/team/image-07/image-04.png',
+	},
+];
