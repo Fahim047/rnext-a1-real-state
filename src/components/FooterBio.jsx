@@ -1,4 +1,5 @@
 import FooterSocials from './FooterSocials';
+import Logo from './Logo';
 
 const FooterBio = () => {
 	return (
@@ -8,11 +9,7 @@ const FooterBio = () => {
 					href="javascript:void(0)"
 					className="mb-6 inline-block  max-h-[100px]"
 				>
-					<img
-						src="assets/images/logo/logo.svg"
-						alt="logo"
-						className="max-w-full"
-					/>
+					<Logo />
 				</a>
 				<p className="mb-8 lg:max-w-[270px] text-base text-gray-7">
 					We create digital experiences for brands and companies by using

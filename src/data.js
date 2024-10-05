@@ -3,6 +3,7 @@ import GiftIcon from './components/ui/gift';
 import GridIcon from './components/ui/grid';
 import LayerIcon from './components/ui/layer';
 
+export const navLinks = ['home', 'about', 'pricing', 'blog'];
 export const properties = [
 	{
 		id: 1,
