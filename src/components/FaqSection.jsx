@@ -1,10 +1,8 @@
 import React from 'react';
-import QuestionIcon from './ui/question';
-import DotsIcons from './ui/bluedots';
-import GreenDots from './ui/greendots';
-import BlueDots from './ui/bluedots';
-import FaqCard from './FaqCard';
 import { faqData } from '../data';
+import FaqCard from './FaqCard';
+import BlueDots from './ui/bluedots';
+import GreenDots from './ui/greendots';
 const FaqSection = () => {
 	return (
 		<section className="relative z-20 overflow-hidden bg-white pb-8 pt-20 dark:bg-dark lg:pb-[50px] lg:pt-[120px]">
@@ -28,7 +26,11 @@ const FaqSection = () => {
 				<div className="-mx-4 flex flex-wrap">
 					<div className="w-full px-4 md:grid grid-cols-2 gap-6">
 						{faqData.map((faq) => (
-							<FaqCard key={faq.id} faq={faq} />
+							<FaqCard
+								key={faq.id}
+								question={faq.question}
+								answer={faq.answer}
+							/>
 						))}
 					</div>
 				</div>

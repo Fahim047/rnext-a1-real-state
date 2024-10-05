@@ -1,8 +1,7 @@
 import React from 'react';
 import QuestionIcon from './ui/question';
 
-const FaqCard = ({ faq }) => {
-	const { question, answer } = faq;
+const FaqCard = ({ question, answer }) => {
 	return (
 		<div className="mb-12 flex lg:mb-[70px]">
 			<div className="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-white sm:mr-6 sm:h-[60px] sm:max-w-[60px]">

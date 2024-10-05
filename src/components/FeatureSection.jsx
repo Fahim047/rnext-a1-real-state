@@ -1,8 +1,3 @@
-import React from 'react';
-import GiftIcon from './ui/gift';
-import GridIcon from './ui/grid';
-import LayerIcon from './ui/layer';
-import CubeIcon from './ui/cube';
 import { features } from '../data';
 import FeatureCard from './FeatureCard';
 
