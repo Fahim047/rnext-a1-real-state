@@ -1,6 +1,7 @@
-import Facebook from './components/ui/facebook';
-import Instagram from './components/ui/instagram';
-import Twitter from './components/ui/twitter';
+import CubeIcon from './components/ui/cube';
+import GiftIcon from './components/ui/gift';
+import GridIcon from './components/ui/grid';
+import LayerIcon from './components/ui/layer';
 
 export const properties = [
 	{
@@ -168,7 +169,36 @@ export const blogData = [
 		imageUrl: '/assets/images/blog/blog-footer-02.jpg',
 	},
 ];
-
+export const features = [
+	{
+		id: 1,
+		icon: GiftIcon,
+		title: 'Premium Property Listings',
+		description:
+			'Discover an array of hand-picked properties that meet the highest standards of luxury and comfort.',
+	},
+	{
+		id: 2,
+		icon: GridIcon,
+		title: 'Expert Guidance and Support',
+		description:
+			'Our advanced matching system pairs you with properties that align with your specific needs and desires.',
+	},
+	{
+		id: 3,
+		icon: LayerIcon,
+		title: 'Expert Guidance and Support',
+		description:
+			'Benefit from the expertise of our dedicated team of real estate professionals.',
+	},
+	{
+		id: 4,
+		icon: CubeIcon,
+		title: 'Virtual Tours',
+		description:
+			'Take advantage of our cutting-edge virtual tours and 3D walkthroughs to explore properties from the comfort of your home.',
+	},
+];
 export const aboutUsLinks = ['Home', 'Features', 'About'];
 export const featuresLinks = [
 	'How it works',
