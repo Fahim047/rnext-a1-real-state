@@ -1,7 +1,6 @@
-import LatestBlog from './LatestBlog';
 import { aboutUsLinks, featuresLinks } from '../data';
-import FooterSocials from './FooterSocials';
 import FooterBio from './FooterBio';
+import LatestBlog from './LatestBlog';
 
 const Footer = () => {
 	return (
