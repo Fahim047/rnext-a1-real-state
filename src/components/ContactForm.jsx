@@ -1,3 +1,5 @@
+import Button from './ui/button';
+
 const ContactForm = () => {
 	return (
 		<div className="w-full px-4 lg:w-5/12 xl:w-4/12">
@@ -63,12 +65,7 @@ const ContactForm = () => {
 						></textarea>
 					</div>
 					<div className="mb-0">
-						<button
-							type="submit"
-							className="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-blue-dark"
-						>
-							Send
-						</button>
+						<Button>Send</Button>
 					</div>
 				</form>
 			</div>
